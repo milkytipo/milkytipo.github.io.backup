@@ -2,15 +2,127 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Zida&#39; Homepage</title>
-    <link>https://milkytipo.github.io/tags/</link>
-      <atom:link href="https://milkytipo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zidawu.github.io/tags/</link>
+      <atom:link href="https://zidawu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://milkytipo.github.io/img/icon-192.png</url>
+      <url>https://zidawu.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://milkytipo.github.io/tags/</link>
+      <link>https://zidawu.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Docking</title>
+      <link>https://zidawu.github.io/tags/docking/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/docking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometry Segmentaion</title>
+      <link>https://zidawu.github.io/tags/geometry-segmentaion/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/geometry-segmentaion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mask_rcnn</title>
+      <link>https://zidawu.github.io/tags/mask_rcnn/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/mask_rcnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>https://zidawu.github.io/tags/slam/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>https://zidawu.github.io/tags/source-themes/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNSS</title>
+      <link>https://zidawu.github.io/tags/gnss/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/gnss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IMU</title>
+      <link>https://zidawu.github.io/tags/imu/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/imu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sensor fusion</title>
+      <link>https://zidawu.github.io/tags/sensor-fusion/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/sensor-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AOA</title>
+      <link>https://zidawu.github.io/tags/aoa/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/aoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bluetooth</title>
+      <link>https://zidawu.github.io/tags/bluetooth/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/bluetooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MUSIC</title>
+      <link>https://zidawu.github.io/tags/music/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PDR</title>
+      <link>https://zidawu.github.io/tags/pdr/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/pdr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smartphone</title>
+      <link>https://zidawu.github.io/tags/smartphone/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/smartphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://zidawu.github.io/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/tags/academic/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

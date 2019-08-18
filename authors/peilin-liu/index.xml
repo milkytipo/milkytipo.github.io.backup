@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peilin Liu | Zida&#39; Homepage</title>
+    <link>https://zidawu.github.io/authors/peilin-liu/</link>
+      <atom:link href="https://zidawu.github.io/authors/peilin-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peilin Liu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright><lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zidawu.github.io/img/icon-192.png</url>
+      <title>Peilin Liu</title>
+      <link>https://zidawu.github.io/authors/peilin-liu/</link>
+    </image>
+    
+    <item>
+      <title>MEMS-based IMU Assisted Real Time Difference Using Raw Measurements for Smartphone</title>
+      <link>https://zidawu.github.io/publication/ion2018-article/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/publication/ion2018-article/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

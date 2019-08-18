@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MUSIC | Zida&#39; Homepage</title>
+    <link>https://zidawu.github.io/tags/music/</link>
+      <atom:link href="https://zidawu.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <description>MUSIC</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zidawu.github.io/img/icon-192.png</url>
+      <title>MUSIC</title>
+      <link>https://zidawu.github.io/tags/music/</link>
+    </image>
+    
+    <item>
+      <title>Bluetooth Indoor Positioning System</title>
+      <link>https://zidawu.github.io/project/aoa-project/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/aoa-project/</guid>
+      <description>&lt;p&gt;Generally, only UWB (bandwidth=500M) enabled to achieve cm-grade accuracy of  ratio signal positioning. However, the Bluetooth low energy 4.0 (BLE)  signal (bandwidth=2M) and subsequent BLE 5.0, hold ambition to realize the cm-grade accuracy with many specific characteristics. If so, the cost of cm-grade positioning would dramatically decrease. Therefore, this project aimed to realize accurate Bluetooth signal arrival-of-angle (AOA) estimation (less than 5-degree), using single channel 6-antenna array.&lt;/p&gt;
+
+&lt;p&gt;The Multiple Signal Classification algorithm (MUSIC) on phase and frequency was performed to estimate angles. On frequency analysis, we found that there was a tricky phase drift problem caused by antenna switch would disturb the whole sampling result. We solved this problem by intermittent sampling with frequency compensation, and enlarging the switch time to divide the whole points into three patches which deleted points around switch time.  The multipath effect was mitigated by antenna dynamic signal polarization switch.&lt;/p&gt;
+
+&lt;p&gt;As a result, the algorithm achieved 5-degree accuracy in estimating the AOA of Bluetooth signal, which means cm-grade localization accuracy could be achieved with this system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

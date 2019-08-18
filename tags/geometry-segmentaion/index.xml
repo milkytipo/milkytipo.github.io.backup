@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geometry Segmentaion | Zida&#39; Homepage</title>
+    <link>https://zidawu.github.io/tags/geometry-segmentaion/</link>
+      <atom:link href="https://zidawu.github.io/tags/geometry-segmentaion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Geometry Segmentaion</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zidawu.github.io/img/icon-192.png</url>
+      <title>Geometry Segmentaion</title>
+      <link>https://zidawu.github.io/tags/geometry-segmentaion/</link>
+    </image>
+    
+    <item>
+      <title>Intelligent Robotic Navigation and Manipulation System</title>
+      <link>https://zidawu.github.io/project/singapore-project/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/singapore-project/</guid>
+      <description>&lt;p&gt;Traditionally,  mobile robot often realized docking action with help of RFID or QR code. In autonomous factory,  to dynamically follow the mobile target and then implement docking action is a pressing demand. Therefore, we aimed to develop a docking SLAM that tracks moving objects with cm-grade docking accuracy for autonomous vehicle.&lt;/p&gt;
+
+&lt;p&gt;We chose Mask-RCNN build on FPN and ResNet101 to generate object masks and chose ORB_SLAM2 as back-end to realize online docking system.  In order to track the moving object, we constructed an images fusion module to combine the mask of object and depth geometry segmentation, and used omnidirectional wheels to avoid large rotation under close range.&lt;/p&gt;
+
+&lt;p&gt;Such a system could real-time segment out the target object from the camera images, and only extract feature points from the specific region. Without complicated mapping, the vehicle would dynamically locate and follow the target machine to dock into it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
