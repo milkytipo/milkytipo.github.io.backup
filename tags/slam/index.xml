@@ -17,9 +17,9 @@
       <link>https://zidawu.github.io/project/singapore-project/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://zidawu.github.io/project/singapore-project/</guid>
-      <description>&lt;p&gt;Traditionally,  mobile robot often realized docking action with help of RFID or QR code. In autonomous factory,  to dynamically follow the mobile target and then implement docking action is a pressing demand. Therefore, we aimed to develop a docking SLAM that tracks moving objects with cm-grade docking accuracy for autonomous vehicle.&lt;/p&gt;
+      <description>&lt;p&gt;Traditionally,  mobile robot often realized docking action with help of RFID or QR code. In autonomous factories,  to dynamically follow mobile target and then implement docking action is a pressing demand. Therefore, we aimed to develop a docking SLAM method that tracks moving objects with cm-grade docking accuracy for autonomous vehicles.&lt;/p&gt;
 
-&lt;p&gt;We chose Mask-RCNN build on FPN and ResNet101 to generate object masks and chose ORB_SLAM2 as back-end to realize online docking system.  In order to track the moving object, we constructed an images fusion module to combine the mask of object and depth geometry segmentation, and used omnidirectional wheels to avoid large rotation under close range.&lt;/p&gt;
+&lt;p&gt;We chose Mask-RCNN build on FPN and ResNet101 to generate object masks and chose ORB_SLAM2 as back-end to realize online docking system.  In order to track the moving object, we constructed an images fusion module to combine the masks of object and depth geometry segmentation, and used omnidirectional wheels to avoid large rotation under close range.&lt;/p&gt;
 
 &lt;p&gt;Such a system could real-time segment out the target object from the camera images, and only extract feature points from the specific region. Without complicated mapping, the vehicle would dynamically locate and follow the target machine to dock into it.&lt;/p&gt;
 </description>
@@ -30,9 +30,9 @@
       <link>https://zidawu.github.io/project/msf-project/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>https://zidawu.github.io/project/msf-project/</guid>
-      <description>&lt;p&gt;To deploy the autonomous robot into reality,  where the robots have to cope with complicated and challenging environment, it is a tendency that fusing multi-sensor data to achieve the target. Besides, the calibration, time synchronization and computation complexity should also be came into considered. This projects introduced a loose-coupled framework that fuses IMU, SLAM, GNSS and other sensors separately, which tolerates single sensor signal lost during operation.&lt;/p&gt;
+      <description>&lt;p&gt;To deploy the autonomous robot into reality,  where the robots have to cope with complicated and challenging environment, it is a tendency that fusing multi-sensor data to achieve the goal. Besides, the calibration, time synchronization and computation complexity should also be came into considered. This projects introduced a loose-coupled framework that fuses IMU, SLAM, GNSS and other sensors separately, which tolerates single sensor failure during operation.&lt;/p&gt;
 
-&lt;p&gt;The algorithm allowed each sensor to separately estimate their own pose, and conducted the relative-absolute relationship, for example the IMU-SLAM or SLAM-GPS. Then it would apply error-state KF to optimize the independent poses from SLAM and IMU, and fed back into the nominal state to acquire the genuine pose.  In this process,  the rigid constraint between the local world and vision frame should be loosed since the gravity gradually calibrate the frame into the gravity-alignment coordinate. After that, A second error-state filter is utilized to fuse the GNSS measurements to prevent state estimation drift in long-term operation.&lt;/p&gt;
+&lt;p&gt;The algorithm allowed each sensor to separately estimate their own pose, and conducted the relative-absolute relationships, for example the IMU-SLAM or SLAM-GPS. Then it would apply an error-state Kalman Filter to optimize the independent poses from SLAM and IMU, and fed back into the nominal states to acquire the genuine pose.  In this process,  the rigid constraint between the local world and vision frame should be loosed since the gravity gradually calibrate the frame into the gravity-alignment coordinate. After that, A second error-state filter was utilized to fuse the GNSS measurements to prevent state estimation drift in long-term operation.&lt;/p&gt;
 
 &lt;p&gt;In addition, this algorithm synchronization strategy is to interpolate single sensor measurements to the closest state in the queue.&lt;/p&gt;
 </description>
