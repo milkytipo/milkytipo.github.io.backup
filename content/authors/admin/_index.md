@@ -70,7 +70,7 @@ user_groups:
 - Visitors
 ---
 
-I am a prospective PhD student at [University of California, Los Angele](https://www.ucla.edu/) at 2020 Fall, under the supervision of [Ankur Mehta](https://uclalemur.com/people/ankur-mehta).  I have accomplished my Master degree at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), under the supervision of  [Prof. Peilin Liu](https://ieeexplore.ieee.org/author/37085443061) and [Prof. Fei Wen](https://scholar.google.com/citations?user=1BG4-HMAAAAJ&hl=en). Before that, I completed my Bachelor degree at  [Xidian University](https://en.xidian.edu.cn/), Xi’an. My research interests are SLAM, multi-sensor fusion, pose estimation, GNSS and high-accuracy positioning on smartphone. A seamless and robust navigation system is what I am chasing for. My CV is [here](https://milkytipo.github.io/files/cv.pdf).
+I am a prospective PhD student at [University of California, Los Angele](https://www.ucla.edu/) at 2020 Fall, under the supervision of [Prof. Ankur Mehta](https://uclalemur.com/people/ankur-mehta).  I have accomplished my Master degree at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), under the supervision of  [Prof. Peilin Liu](https://ieeexplore.ieee.org/author/37085443061) and [Prof. Fei Wen](https://scholar.google.com/citations?user=1BG4-HMAAAAJ&hl=en). Before that, I completed my Bachelor degree at  [Xidian University](https://en.xidian.edu.cn/), Xi’an. My research interests are SLAM, multi-sensor fusion, pose estimation, GNSS and high-accuracy positioning on smartphone. A seamless and robust navigation system is what I am chasing for. My CV is [here](https://milkytipo.github.io/files/cv.pdf).
 
 
 
