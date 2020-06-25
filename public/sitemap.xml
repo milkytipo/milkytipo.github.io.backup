@@ -1,20 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
+    <loc>/tag/gnss/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
+    <loc>/tag/imu/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/msf-project/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sensor-fusion/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/slam/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/docking/</loc>
+    <lastmod>2019-06-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/geometry-segmentation/</loc>
+    <lastmod>2019-06-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/singapore-project/</loc>
+    <lastmod>2019-06-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/semantic/</loc>
+    <lastmod>2019-06-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/csnc2019_1/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/csnc/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-05-24T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/csnc2019_2/</loc>
+    <lastmod>2019-05-23T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/csnc2/</loc>
+    <lastmod>2019-05-23T13:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ion2018-article/</loc>
+    <lastmod>2018-09-23T13:35:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/ion2018/</loc>
+    <lastmod>2018-09-23T13:35:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/gnss-project/</loc>
+    <lastmod>2017-09-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pdr/</loc>
+    <lastmod>2017-09-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/smartphone/</loc>
+    <lastmod>2017-09-24T23:29:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/volunteer-teacher/</loc>
+    <lastmod>2014-07-24T13:42:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2014-07-24T13:42:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/aoa/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>/tag/bluetooth-4.0/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/aoa-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tag/music/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/zida-wu/</loc>
   </url>
   
 </urlset>

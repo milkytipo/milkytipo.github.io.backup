@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Zida&#39; Homepage</title>
+    <link>https://zidawu.github.io/project/</link>
+      <atom:link href="https://zidawu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Zida Wu</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zidawu.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://zidawu.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Intelligent Robotic Navigation and Manipulation System</title>
+      <link>https://zidawu.github.io/project/singapore-project/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/singapore-project/</guid>
+      <description>&lt;p&gt;Traditionally,  mobile robot often realized docking action with help of RFID or QR code. In autonomous factories,  to dynamically follow mobile target and then implement docking action is a pressing demand. Therefore, we aimed to develop a docking SLAM method that tracks moving objects with cm-grade docking accuracy for autonomous vehicles.&lt;/p&gt;
+
+&lt;p&gt;We chose Mask-RCNN build on FPN and ResNet101 to generate object masks and chose ORB_SLAM2 as back-end to realize online docking system.  In order to track the moving object, we constructed an images fusion module to combine the masks of object and depth geometry segmentation, and used omnidirectional wheels to avoid large rotation under close range.&lt;/p&gt;
+
+&lt;p&gt;Such a system could real-time segment out the target object from the camera images, and only extract feature points from the specific region. Without complicated mapping, the vehicle would dynamically locate and follow the target machine to dock into it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-sensor Fusion for Inspection Robot</title>
+      <link>https://zidawu.github.io/project/msf-project/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/msf-project/</guid>
+      <description>&lt;p&gt;To deploy the autonomous robot into reality,  where the robots have to cope with complicated and challenging environment, it is a tendency that fusing multi-sensor data to achieve the goal. Besides, the calibration, time synchronization and computation complexity should also be came into considered. This projects introduced a loose-coupled framework that fuses IMU, SLAM, GNSS and other sensors separately, which tolerates single sensor failure during operation.&lt;/p&gt;
+
+&lt;p&gt;The algorithm allowed each sensor to separately estimate their own pose, and conducted the relative-absolute relationships, for example the IMU-SLAM or SLAM-GPS. Then it would apply an error-state Kalman Filter to optimize the independent poses from SLAM and IMU, and fed back into the nominal states to acquire the genuine pose.  In this process,  the rigid constraint between the local world and vision frame should be loosed since the gravity gradually calibrate the frame into the gravity-alignment coordinate. After that, A second error-state filter was utilized to fuse the GNSS measurements to prevent state estimation drift in long-term operation.&lt;/p&gt;
+
+&lt;p&gt;In addition, this algorithm synchronization strategy is to interpolate single sensor measurements to the closest state in the queue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bluetooth Indoor Positioning System</title>
+      <link>https://zidawu.github.io/project/aoa-project/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/aoa-project/</guid>
+      <description>&lt;p&gt;Generally, only UWB (bandwidth=500M) enabled to achieve cm-grade accuracy for ratio signal positioning. However, the Bluetooth low energy 4.0 (BLE)  signal (bandwidth=2M) and subsequent BLE 5.0, hold ambition to realize cm-grade accuracy with many specific characteristics. If so, the cost of cm-grade positioning would dramatically decrease. Therefore, this project aimed to realize accurate Bluetooth signal arrival-of-angle (AOA) estimation (less than 5-degree), using single channel 6-antenna array.&lt;/p&gt;
+
+&lt;p&gt;The Multiple Signal Classification algorithm (MUSIC) on phase and frequency was performed to estimate angles. On frequency analysis, we found that there was a tricky phase drift problem caused by antenna switch would disturb the whole sampling result. We solved this problem by intermittent sampling with frequency compensation, and enlarging the switch time to divide the whole points into three patches which deleted points around switch time.  The multipath effect was mitigated by antenna dynamic signal polarization switch.&lt;/p&gt;
+
+&lt;p&gt;As a result, the algorithm achieved 5-degree accuracy in estimating the AOA of Bluetooth signal, which means cm-grade localization accuracy could be achieved with this system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High-accuracy GNSS Positioning on Portable Smartphone</title>
+      <link>https://zidawu.github.io/project/gnss-project/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://zidawu.github.io/project/gnss-project/</guid>
+      <description>&lt;p&gt;Google released Android Nougat (version 7.0) in 2016, which opens the possibility to use raw data to achieve high precision  solutions on low-cost smart devices. Due to the poor performance of the low-cost antenna and crystal oscillator of smartphone,  the accuracy of traditional single point positioning can only reach about 10 meters. However, IMU, the interoceptive sensor which never care about the interference outside, enable to assit GNSS to achieve robust and continous localization.  Therefore, this project aimed to develop an algorithm which achieved high-accuracy and reliable positioning of smartphones under complex environment using GNSS-IMU fusion.&lt;/p&gt;
+
+&lt;p&gt;We developed an Android application to obatin the raw GNSS chips data and parsed it into generic format RINEX 3.02. During the analysis, we found that phone horrible oscillator existed intermittent 256ns drift. Then the pseudorange double-difference (PDD) was perforemd to eliminate the atmosphere, satellite, and phone clock error, as well as decoupled the pseudorange and velocity measurements based on the short-baseline hypothesis.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the joint heading estimation using Pedestrian Dead Reckoning (PDR) and GNSS Doppler was also presented, the result showes that this algorithm calibrated the PDR gait length loss and heading drift in the long-term, and maintained high smooth and accuracy in the short-term.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
